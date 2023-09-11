@@ -22,6 +22,4 @@ SELECT_DISTRICT_XPATH = "//input[@type='checkbox']"
 DELETE_DISTRICT_XPATH = "//button[@data-cy='btn-delete']"
 YES_BUTTON_XPATH = "//button/span[@class='v-btn__content' and text()='Да']"
 MESSAGE_2_XPATH = "//span[@text()='Нельзя удалить данный уровень из-за вложенных записей']"
-
-# <span style="white-space: pre-wrap;">Нельзя удалить данный уровень из-за вложенных записей</span>
-# <div class="v-snack__wrapper v-sheet theme--dark error" style="max-width: 460px; display: none;"><div role="status" aria-live="polite" class="v-snack__content pa-4"><span style="white-space: pre-wrap;">Нельзя удалить данный уровень из-за вложенных записей</span></div><div class="v-snack__action "></div></div>
+COUNT_BEFORE_XPATH = "//thead[@data-cy='stack-table-head']"
